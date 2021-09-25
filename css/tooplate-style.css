@@ -69,10 +69,10 @@ a {
 }
 
 a:hover{
-  color: #cfd135 !important;
+  color: #b7b928;
 }
 
-.fa > a:hover {
+.connect > a:hover {
   color: #986ef8 !important;
 }
 
