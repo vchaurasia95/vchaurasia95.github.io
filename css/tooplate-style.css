@@ -67,7 +67,12 @@ a {
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
-a:hover {
+
+a:hover{
+  color: #cfd135 !important;
+}
+
+.fa > a:hover {
   color: #986ef8 !important;
 }
 
