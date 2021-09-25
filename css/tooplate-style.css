@@ -1,12 +1,3 @@
-/*
-
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
-*/
-
-
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 html {
   overflow:   scroll;
@@ -27,7 +18,7 @@ body {
 }
 
 .small-text {
-  color: #5b5b5b;
+  color: #f3f3f3;
   font-size: 14px;
   font-weight: bold;
   padding: 8px 16px;
@@ -35,11 +26,16 @@ body {
   letter-spacing: 0.2px;
 }
 
+.project-info {
+  /* height: 500px; */
+  /* width: 500px;
+  margin: 0% !important; */
+}
 ul {
   margin: 0;
   padding: 0;
 }
-ul li {
+.navbar-nav>ul li {
   list-style: none;
 }
 
@@ -56,12 +52,17 @@ a:hover {
   font-size: 40px;
 }
 
+.intro-text{
+  margin-top: 5px;
+  text-align: justify;
+}
+
 p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 0px;
-  color: #5b5b5b;
+  color: #a5a3a3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,6 +116,8 @@ b, strong {
 
 .animated {
   position: relative;
+  text-align: center;
+  margin: 10px 0px !important;
 }
 
 .animated-info {
@@ -139,13 +142,16 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
-  animation: BottomTotop 6s linear infinite 0s;
+  animation: BottomTotop 5s linear infinite 0s;
 }
-.animated-item:nth-child(2n+2) {
+.animated-item:nth-child(2) {
   animation-delay: 2s;
 }
-.animated-item:nth-child(3n+3) {
+.animated-item:nth-child(3) {
   animation-delay: 4s;
+}
+.animated-item:nth-child(4) {
+  animation-delay: 6s;
 }
 
 @keyframes BottomTotop {
@@ -234,6 +240,14 @@ b, strong {
 
 .navbar-light .navbar-toggler-icon {
   background: none;
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.navbar-collapse{
+  background: none !important;
 }
 
 .navbar-toggler {
@@ -368,12 +382,18 @@ b, strong {
   margin-left: 6em;
 }
 .timeline-info small {
-  color: #474559;
+  color: #9c98b8;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
   margin-left: 15px;
+}
+
+.timeline-info > ul >li {
+  margin-left: 40px;
+  color: #a5a3a3;
+  display: list-item !important;
 }
 
 .owl-carousel .owl-nav span {
@@ -584,18 +604,83 @@ b, strong {
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* LinkedIn */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+/* Github */
+.fa-github {
+  background: rgb(71, 74, 82);
+  color: white;
+}
+/* Gmail */
+.fa-envelope {
+  background: #55ACEE;
+  color: white;
+}
+.circle {
+  border-radius: 50%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px !important;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 .html {width: 90%; background-color: #9BB8ED;} /* Green */
-.css {width: 90%;background-color: #A39FE1;} /* Blue */
-.js {width: 90%; background-color: #DEB3E0;} /* Red */
+.ejs {width: 75%;background-color: #A39FE1;} /* Blue */
+.a2 {width: 85%;background-color: #A39FE1;} /* Blue */
+.njs {width: 75%;background-color: #A39FE1;} /* Blue */
+.i5 {width: 80%;background-color: #A39FE1;} /* Blue */
+.sol {width: 80%;background-color: #A39FE1;} /* Blue */
+.sb {width: 75%;background-color: #A39FE1;} /* Blue */
+.js {width: 80%; background-color: #DEB3E0;} /* Red */
 .php {width: 60%; background-color: #FEC6DF;} /* Dark Grey */
-.java {width: 90%; background-color: #FFDDE4;}
+.java {width: 80%; background-color: #FFDDE4;}
 .python {width: 86%; background-color: #FEECD6}
 .data {width: 80%; background-color: #C1E3FE;} /* Green */
 .algo {width: 75%; background-color: #CFB6E5;} /* Blue */
 .wd {width: 86%; background-color: #FFD9E0;} /* Red */
-.cc {width: 90%; background-color: #F1EECD;} /* Dark Grey */
-.ds {width: 75%; background-color: #C9DECE;}
-.ml {width: 89%; background-color: #C3BCCF}
+.cc {width: 75%; background-color: #F1EECD;} /* Dark Grey */
+.bc {width: 90%; background-color: #C9DECE;}
+.ml {width: 80%; background-color: #C3BCCF}
 /* .skill-container{
   padding-left: 5%;
   padding-right: 5%;
