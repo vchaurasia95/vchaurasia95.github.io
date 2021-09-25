@@ -690,21 +690,21 @@ b, strong {
 }
 .html {width: 90%; background-color: #9BB8ED;} /* Green */
 .ejs {width: 75%;background-color: #A39FE1;} /* Blue */
-.a2 {width: 85%;background-color: #A39FE1;} /* Blue */
-.njs {width: 75%;background-color: #A39FE1;} /* Blue */
-.i5 {width: 80%;background-color: #A39FE1;} /* Blue */
-.sol {width: 80%;background-color: #A39FE1;} /* Blue */
+.a2 {width: 85%;background-color: #a0e2b0;} /* Blue */
+.njs {width: 75%;background-color: #e2d654;} /* Blue */
+.i5 {width: 80%;background-color: #81dab0;} /* Blue */
+.sol {width: 80%;background-color: #544f96;} /* Blue */
 .sb {width: 75%;background-color: #A39FE1;} /* Blue */
 .js {width: 80%; background-color: #DEB3E0;} /* Red */
-.php {width: 60%; background-color: #FEC6DF;} /* Dark Grey */
-.java {width: 80%; background-color: #FFDDE4;}
-.python {width: 86%; background-color: #FEECD6}
+.php {width: 60%; background-color: #e8a2fa;} /* Dark Grey */
+.java {width: 80%; background-color: #f196a8;}
+.python {width: 86%; background-color: #f5ce9e}
 .data {width: 80%; background-color: #C1E3FE;} /* Green */
 .algo {width: 75%; background-color: #CFB6E5;} /* Blue */
 .wd {width: 86%; background-color: #FFD9E0;} /* Red */
-.cc {width: 75%; background-color: #F1EECD;} /* Dark Grey */
-.bc {width: 90%; background-color: #C9DECE;}
-.ml {width: 80%; background-color: #C3BCCF}
+.cc {width: 75%; background-color: #e2d654;} /* Dark Grey */
+.bc {width: 90%; background-color: #a7ddb4;}
+.ml {width: 80%; background-color: #8f8b97}
 .skill-container{
   padding-bottom: 20px !important;
 }
