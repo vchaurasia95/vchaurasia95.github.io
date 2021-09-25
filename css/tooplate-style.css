@@ -551,7 +551,7 @@ b, strong {
     padding: 0 2rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 2.4em;
   }
@@ -560,21 +560,29 @@ b, strong {
     font-size: 2em;
   }
 
+  .mb-4{
+    margin-bottom: 2% !important;
+  }
+
+  .lang {
+    margin-top: 20px;
+  }
+
   .animated-item {
     font-size: 28px;
+    text-align: left;
   }
 
   .navbar-collapse {
     background: #ffffff;
     text-align: center;
-    padding-bottom: 20px;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding: 3px 20px;
+    padding: 0px 10px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 525px) {
 	.animated-info {
 		min-width: 200px;
 	}
@@ -584,6 +592,14 @@ b, strong {
 
   .custom-btn-group {
     text-align: center;
+  }
+
+  .about-text{
+    margin-top: 10px;
+  }
+
+  .intro-text{
+    margin-top: 30px;
   }
 
   .custom-btn {
@@ -600,13 +616,14 @@ b, strong {
     margin: 10px 0 0 0;
   }
 }
+
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
   }
-
   .about-text {
     text-align: center;
+    margin-top: 120px;
   }
 
   .full-screen {
