@@ -557,7 +557,12 @@ b, strong {
     margin-top: 20px;
   }
 
+  .animated-info{
+    margin-top: 0%;
+  }
+
   .animated-item {
+    font-size: 2.8rem;
     text-align: left;
   }
 
