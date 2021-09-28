@@ -72,9 +72,9 @@ a:hover{
   color: #b7b928;
 }
 
-/* .connect > a:hover {
-  color: #986ef8 !important;
-} */
+.connect > a:hover {
+  color: #ffffff !important;
+}
 
 .navbar-brand .uil {
   font-size: 40px;
