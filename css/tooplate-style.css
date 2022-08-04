@@ -782,3 +782,10 @@ b, strong {
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+.comp-container{
+  background-color: white;
+  border-radius: 50%;
+}
+.comp-img{
+  width: 65%;
+}
