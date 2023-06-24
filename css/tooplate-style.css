@@ -420,7 +420,7 @@ b, strong {
 }
 
 .timeline-info > ul >li {
-  margin-left: 40px;
+  margin-left: 5%;
   color: #a5a3a3;
   display: list-item !important;
 }
